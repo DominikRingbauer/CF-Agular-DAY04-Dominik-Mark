@@ -7,7 +7,7 @@
 		<img class="card-img-top" src="{{product.image}}">
 		<div class="card-body">
 		<h2 class="card-title">{{product.name}}</h2>
-		<p class="card-text">{{product.description}}</p>
+		<p class="card-text" [innerHTML]="product.description"></p>
 		<p class="card-text">{{product.release}}</p>
 		<p class="card-text">{{product.creator}}</p>
 		</div>

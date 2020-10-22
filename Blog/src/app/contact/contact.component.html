@@ -1,1 +1,23 @@
-<p>contact works!</p>
+<h2>We're looking forwart to hearing from you!</h2>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+
+    First Name:
+    <input type="text" formControlName="firstName">
+    <div *ngIf="contactForm.get('firstName').errors?.required && submitted">
+        Please enter your first name
+    </div>
+    <div *ngIf="contactForm.get('firstName').errors.minLength && submitted">
+        Name needs to be at least 2 letters
+    </div>
+    Last Name:
+    <input type="text" formControlName="lastName">
+    Email:
+    <input type="text" formControlName="email">
+    Message:
+    <input type="text" formControlName="message">
+
+    <input type="submit" class="btn btn-primary" value="Submit">
+    <!-- <button class="button" type="submit">Submit</button> -->
+
+</form>

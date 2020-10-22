@@ -20,7 +20,7 @@ export const products = [
 },{
 	image: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1597674355-nanoleaf-1597674345.jpg?crop=1xw:1xh;center,top&resize=768:*",
 	name: "NANOLEAF",
-	description:"I love interactive lighting. By love, I mean obsess over it. And Nanoleaf has brought interactive lighting to a consumer level. Expanding its collection of wall light panels from triangles and squares, Nanoleaf now has hexagons in its catalog. These lights are not only fully capable of making amazing colors and patterns, but they respond to touch and even work as your smart home controller. You can program gestures into the lights to turn other smart lights on, prompt commands from a smart home assistant of your choice, and more. Nanoleaf recently implemented a reactive feature so that the hexagons change color based on what's happening on your TV. This is truly the lighting of the future, and a helluva conversation piece.",
+	description:"I love interactive lighting. By love, I mean obsess over it.<br> And Nanoleaf has brought interactive lighting to a consumer level. Expanding its collection of wall light panels from triangles and squares, Nanoleaf now has hexagons in its catalog. These lights are not only fully capable of making amazing colors and patterns, but they respond to touch and even work as your smart home controller. You can program gestures into the lights to turn other smart lights on, prompt commands from a smart home assistant of your choice, and more. Nanoleaf recently implemented a reactive feature so that the hexagons change color based on what's happening on your TV. This is truly the lighting of the future, and a helluva conversation piece.",
 	release: "2020-10-22",
 	creator: "Mark"
 },{
