@@ -27,6 +27,7 @@ contactForm = new FormGroup({
       var tmp = this.contactForm.value;
       console.log(tmp)
       this.submitted = false;
+      this.contactForm.reset();
     }
   }
 }
